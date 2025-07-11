@@ -56,3 +56,7 @@ To perform these steps, I created a small shell script that requires no manual i
 
 [deregister-ami script](https://github.com/thangacodes/packer/blob/main/packer_projects/project-8/deregister-ami.sh)
 
+Hashicorp tool version check command
+
+[too_version_check](https://github.com/thangacodes/packer/blob/main/enterprise_image_build/hashi_tool_version_check.sh)
+
