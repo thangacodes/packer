@@ -1,4 +1,4 @@
-# Packer Tutotial:
+# Packer:
 
 1. Create a directory like C:\packer_1.9.2_windows_amd64 and place the executable file there (e.g., packer.exe)
 
@@ -54,5 +54,5 @@ Terraform Scripts begin after the ami is created.
  
  To perform these steps, I created a small shell script that requires no manual intervention.
 
-[deregister-ami script](https://github.com/thangacodes/packer_tutorial/blob/main/Packer/project-8/deregister-ami.sh)
+[deregister-ami script](https://github.com/thangacodes/packer/blob/main/packer_projects/project-8/deregister-ami.sh)
 
