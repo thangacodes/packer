@@ -28,31 +28,31 @@ Packer Commands Overview:
 
 These commands by HashiCorp Packer will create a custom Amazon Machine Image (AMI):
 
-packer init
+   * packer init
 
-packer fmt
+   * packer fmt
 
-packer validate
+   * packer validate
 
-packer build ebs.json
+   * packer build ebs.json
 
-packer build -var-file=vars.json template.json
+   * packer build -var-file=vars.json template.json
 
 Note: All configuration is written in JSON files.
  
 Terraform Scripts begin after the ami is created.
  
- * terraform init
+   * terraform init
  
- * terraform fmt
+   * terraform fmt
  
- * terraform validate
+   * terraform validate
  
- * terraform plan
+   * terraform plan
  
- * terraform apply --auto-approve
+   * terraform apply --auto-approve
  
- To perform these steps, I created a small shell script that requires no manual intervention.
+To perform these steps, I created a small shell script that requires no manual intervention.
 
 [deregister-ami script](https://github.com/thangacodes/packer/blob/main/packer_projects/project-8/deregister-ami.sh)
 
